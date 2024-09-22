@@ -3,6 +3,17 @@ from typing import Any, Callable, Dict, List, Optional, Tuple, Union
 
 import click
 from click import ParamType
+from click_completion.core import (
+    Shell as Shell,
+    completion_configuration as completion_configuration,
+    get_choices as get_choices,
+    get_code as get_code,
+    install as install,
+    resolve_ctx as resolve_ctx,
+    shells as shells,
+    startswith as startswith,
+)
+from click_completion.lib import get_auto_shell as get_auto_shell
 
 __version__: str
 _initialized: bool

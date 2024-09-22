@@ -2,8 +2,10 @@ from enum import Enum
 from typing import Callable, Dict, Generator, List, Optional, Tuple
 
 import click
+from click_completion.lib import resolve_ctx as resolve_ctx
 
 shells: Dict[str, str]
+completion_configuration: CompletionConfiguration
 
 class Shell(Enum):
     bash: str
