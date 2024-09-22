@@ -9,9 +9,9 @@ packages = [{ include = "click_completion", from = "stubs" }]
 
 [tool.poetry.dependencies]
 python = "^3.6"
-click-completion = "0.5.2"
 
 [tool.poetry.group.dev.dependencies]
+click-completion = "0.5.2"
 types-click = "^7.1.8"
 click = "<8.0.0"
 
