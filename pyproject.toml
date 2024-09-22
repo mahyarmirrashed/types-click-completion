@@ -6,6 +6,7 @@ authors = ["Mahyar Mirrashed <mahyar+pypi@mirrashed.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{ include = "click_completion" }]
+exclude = ["click_completion/__init__.py"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
