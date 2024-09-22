@@ -38,7 +38,7 @@ def get_code(
     extra_env: Optional[Dict[str, str]] = None,
 ) -> str: ...
 def install(
-    shell: Optional[Shell] = None,
+    shell: Optional[str] = None,
     prog_name: Optional[str] = None,
     env_name: Optional[str] = None,
     path: Optional[str] = None,
