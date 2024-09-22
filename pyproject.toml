@@ -5,6 +5,7 @@ description = "PEP 561 type stubs for click-completion."
 authors = ["Mahyar Mirrashed <mahyar+pypi@mirrashed.com>"]
 license = "MIT"
 readme = "README.md"
+repository = "https://github.com/mahyarmirrashed/types-click-completion"
 packages = [{ include = "click_completion" }]
 exclude = ["click_completion/__init__.py"]
 
