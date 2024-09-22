@@ -8,6 +8,16 @@ readme = "README.md"
 repository = "https://github.com/mahyarmirrashed/types-click-completion"
 packages = [{ include = "click_completion" }]
 exclude = ["click_completion/__init__.py"]
+classifiers = [
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
 
 [tool.poetry.dependencies]
 python = "^3.6"
