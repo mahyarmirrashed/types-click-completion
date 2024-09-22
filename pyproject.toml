@@ -6,8 +6,8 @@ authors = ["Mahyar Mirrashed <mahyar+pypi@mirrashed.com>"]
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/mahyarmirrashed/types-click-completion"
-packages = [{ include = "click_completion" }]
-exclude = ["click_completion/__init__.py"]
+packages = [{ include = "click_completion-stubs" }]
+exclude = ["click_completion-stubs/__init__.py"]
 classifiers = [
   "Intended Audience :: Developers",
   "License :: OSI Approved :: MIT License",
