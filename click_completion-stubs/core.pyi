@@ -1,5 +1,5 @@
 from enum import Enum
-from typing import Callable, Dict, Generator, List, Optional, Tuple
+from typing import Callable, Dict, Generator, List, Literal, Optional, Tuple
 
 import click
 from click_completion.lib import resolve_ctx as resolve_ctx
@@ -12,6 +12,8 @@ class Shell(Enum):
     fish: str
     zsh: str
     powershell: str
+
+ShellName = Literal["bash", "fish", "zsh", "powershell"]
 
 def startswith(string: str, incomplete: str) -> bool: ...
 
@@ -42,4 +44,4 @@ def install(
     path: Optional[str] = None,
     append: Optional[bool] = None,
     extra_env: Optional[Dict[str, str]] = None,
-) -> Tuple[Shell, str]: ...
+) -> Tuple[ShellName, str]: ...
