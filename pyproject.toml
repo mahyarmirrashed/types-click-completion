@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "types-click-completion"
+version = "0.5.2"
+description = "PEP 561 type stubs for click-completion."
+authors = ["Mahyar Mirrashed <mahyar+pypi@mirrashed.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+click-completion = "0.5.2"
+
+[tool.poetry.group.dev.dependencies]
+types-click = "^7.1.8"
+click = "<8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
