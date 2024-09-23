@@ -1,3 +1,4 @@
 # Click Completion Types
 
-Type stubs for the [click-completion](https://github.com/click-contrib/click-completion) PyPI package.
+Type stubs for the
+[click-completion](https://pypi.org/project/click-completion/) PyPI package.
