@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "types-click-completion"
-version = "0.5.2"
+version = "0.5.2.post1"
 description = "Type stubs for click-completion"
 authors = ["Mahyar Mirrashed <mahyar+pypi@mirrashed.com>"]
 license = "MIT"
